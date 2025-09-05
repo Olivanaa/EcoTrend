@@ -7,6 +7,11 @@ body {
     background: linear-gradient(135deg, rgba(241, 241, 241, 0.9), rgba(255, 255, 255, 0.7));
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .navbar {
     border-bottom: 2px solid #547a3a;
     background: linear-gradient(135deg, rgba(181, 214, 187, 0.9), rgba(161, 193, 129, 0.7));
