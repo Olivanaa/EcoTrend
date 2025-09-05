@@ -52,4 +52,4 @@
 ## 🌍 GitHub Pages
 
 O projeto pode ser acessado online em:  
-👉 [EcoTrend - GitHub Pages]()  
+👉 [EcoTrend - GitHub Pages](https://olivanaa.github.io/EcoTrend/)  
