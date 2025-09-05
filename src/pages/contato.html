@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Trend</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg px-3">
+            <a href="/index.html" class="navbar-brand">
+                <img src="../assets/imgs/logo1.png" alt="logo" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars" style="color:#405e2c;"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/produtos.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Conta</a>
+                    </li>
+                </ul>
+                <a href="#" class="nav-link text-dark">
+                    <i class="fa-solid fa-cart-shopping fa-lg"></i>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main class="container py-4">
+        <div class="row d-flex">
+            <div class="col-lg-6 d-flex mb-3 mb-lg-0">
+                <div class="contato-info flex-fill">
+                    <img src="../assets/imgs/slide2.jpg" alt="" class="img-fluid">
+                    <div class="contato-icon">
+                        <i class="fas fa-envelope-open-text"></i>
+                    </div>
+                    <h3 class="contato-titulo">Informações de Contato</h3>
+
+                    <div class="contato-detalhes">
+                        <div class="contato-detalhe">
+                            <i class="fas fa-phone detalhe-icon"></i>
+                            <span>(11) 99999-9999</span>
+                        </div>
+                        <div class="contato-detalhe">
+                            <i class="fas fa-envelope detalhe-icon"></i>
+                            <span>contato@ecotrend.com.br</span>
+                        </div>
+                        <div class="contato-detalhe">
+                            <i class="fas fa-clock detalhe-icon"></i>
+                            <span>Segunda a Sexta: 9h às 18h</span>
+                        </div>
+                    </div>
+                    <div class="contato-links">
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-6 d-flex">
+                <div class="contato-form flex-fill">
+                    <h3 class="form-titulo">Envie uma Mensagem</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="nome" class="form-label">Nome Completo</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email" placeholder="seu@email.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefone" class="form-label">Telefone</label>
+                            <input type="tel" class="form-control" id="telefone" placeholder="(11) 99999-9999">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="assunto" class="form-label">Assunto</label>
+                            <select class="form-control" id="assunto" required>
+                                <option value="" selected disabled>Selecione um assunto</option>
+                                <option>Dúvida sobre produtos</option>
+                                <option>Problema com pedido</option>
+                                <option>Sugestão</option>
+                                <option>Elogio</option>
+                                <option>Parceria</option>
+                                <option>Outro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="5"
+                                placeholder="Digite sua mensagem aqui..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-submit">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <section class="faq-section">
+            <h2 class="faq-titulo">Perguntas Frequentes</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                Qual o prazo de entrega?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                        data-parent="#faqAccordion">
+                        <div class="card-body">
+                            O prazo de entrega varia de acordo com sua localização. Para a região metropolitana de
+                            São Paulo, o prazo é de 2 a 5 dias úteis. Para outras capitais, de 5 a 10 dias úteis. Para o
+                            interior e outras regiões, o prazo pode ser de 7 a 15 dias úteis.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Como posso trocar um produto?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Você tem até 30 dias para solicitar a troca de produtos não perecíveis. Entre em contato
+                            conosco pelo e-mail trocas@ecotrend.com.br ou pelo WhatsApp (11) 99999-9999 informando o
+                            número
+                            do pedido e o motivo da troca.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Vocês entregam para todo o Brasil?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Sim, entregamos para todo o Brasil através dos correios e transportadoras parceiras.
+                            O valor do frete é calculado automaticamente de acordo com o CEP de destino e o peso dos
+                            produtos.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Os produtos são realmente sustentáveis?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Sim! Todos os nossos produtos passam por um rigoroso processo de seleção. Priorizamos
+                            materiais reciclados, biodegradáveis, orgânicos e de origem sustentável. Também damos
+                            preferência a produtores locais e embalagens zero waste.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="container-fluid bg-light">
+        <div class="row">
+            <div class="col-12 col-lg-6 footer-coluna">
+                <div class="footer-logo">
+                    <img src="/src/assets/imgs/logo.png" alt="Eco Trend" height="250">
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2 mt-md-5 mt-lg-5 footer-coluna text-center text-lg-left">
+                <h5 class="footer-titulo">Institucional</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Perguntas Frequentes</a></li>
+                    <li><a href="#">Entregas</a></li>
+                    <li><a href="#">Política de Trocas</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2 mt-md-5 mt-lg-5 footer-coluna text-center text-lg-left">
+                <h5 class="footer-titulo">Categorias</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#ofertas">Ofertas Especiais</a></li>
+                    <li><a href="#cozinha">Cozinha</a></li>
+                    <li><a href="#autocuidado">Auto Cuidado</a></li>
+                    <li><a href="#acessorios">Acessórios</a></li>
+                    <li><a href="#limpeza">Limpeza</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2 mt-md-5 mt-lg-5 footer-coluna text-center text-lg-left">
+                <h5 class="footer-titulo">Contato</h5>
+                <ul class="list-unstyled footer-contato text-center text-lg-left">
+                    <li><i class="fas fa-phone"></i> (11) 99999-9999</li>
+                    <li><i class="fas fa-envelope"></i> contato@ecotrend.com.br</li>
+                    <li><i class="fas fa-map-marker-alt"></i> São Paulo, SP</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center copyright">
+                <p>&copy; 2025 Eco Trend - Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
