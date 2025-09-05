@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Trend</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="./src/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg px-3">
+            <a href="/index.html" class="navbar-brand">
+                <img src="./src/assets/imgs/logo1.png" alt="logo" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars" style="color:#405e2c;"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./src/pages/produtos.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./src/pages/contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Conta</a>
+                    </li>
+                </ul>
+                <a href="#" class="nav-link text-dark">
+                    <i class="fa-solid fa-cart-shopping fa-lg"></i>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main class="home">
+        <div id="banner">
+            <div id="carouselPromo" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselPromo" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselPromo" data-slide-to="1"></li>
+                    <li data-target="#carouselPromo" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./src/assets/imgs/slide1.jpg" class="d-block w-100" alt="Produtos Ecológicos">
+                        <div class="carousel-caption">
+                            <h3>Produtos Ecológicos</h3>
+                            <p>Descubra nossa linha de produtos sustentáveis com até 30% off</p>
+                            <button class="btn btn-light">Comprar Agora</button>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./src/assets/imgs/slide22.jpg" class="d-block w-100" alt="Novidades">
+                        <div class="carousel-caption">
+                            <h3>Novidades na Loja</h3>
+                            <p>Confira os lançamentos que chegaram esta semana</p>
+                            <button class="btn btn-light">Ver Produtos</button>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./src/assets/imgs/frete-gratis.jpg" class="d-block w-100" alt="Frete Grátis">
+                        <div class="carousel-caption">
+                            <h3>Frete Grátis</h3>
+                            <p>Em compras acima de R$ 150,00 em todo o site</p>
+                            <button class="btn btn-light">Aproveitar</button>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselPromo" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselPromo" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </div>
+        <section id="ofertas" class="container py-5">
+            <h1 class="text-center mb-4">Ofertas Especiais</h1>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="./src/assets/imgs/kit.png" class="card-img-top" alt="Kit sustentável">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Kit de cuidados sustentável</h5>
+                            <p class="card-text">R$100</p>
+                            <button class="btn btn-success">Veja mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="./src/assets/imgs/kitcasa.jpg" class="card-img-top" alt="Kit Casa">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Kit Casa</h5>
+                            <p class="card-text">R$130</p>
+                            <button class="btn btn-success">Veja mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="./src/assets/imgs/kit-canudo.png" class="card-img-top" alt="Kit Canudo">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Kit canudo inox</h5>
+                            <p class="card-text">R$25</p>
+                            <button class="btn btn-success">Veja mais</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cozinha" class="container py-5">
+            <h1 class="text-center mb-4">Cozinha</h1>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="./src/assets/imgs/pano.png" class="card-img-top" alt="Pano de Cera">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Pano de cera</h5>
+                            <p class="card-text">R$30</p>
+                            <button class="btn btn-success">Veja mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="./src/assets/imgs/esponja.png" class="card-img-top" alt="Esponja">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Esponja vegetal</h5>
+                            <p class="card-text">R$13</p>
+                            <button class="btn btn-success">Veja mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="./src/assets/imgs/filtro.png" class="card-img-top" alt="Filtro de café">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Filtro de café</h5>
+                            <p class="card-text">R$40</p>
+                            <button class="btn btn-success">Veja mais</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="autocuidado" class="container py-5">
+            <h1 class="text-center mb-4">Auto Cuidado</h1>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="./src/assets/imgs/escova-dente.png" class="card-img-top" alt="escova">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Escova de dente de bambu</h5>
+                            <p class="card-text">R$26,90</p>
+                            <button class="btn btn-success">Veja mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="./src/assets/imgs/cotonete.png" class="card-img-top" alt="cotonete">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Cotonete</h5>
+                            <p class="card-text">R$11</p>
+                            <button class="btn btn-success">Veja mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="./src/assets/imgs/desodorante.png" class="card-img-top" alt="desodorante">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Desodorante em creme</h5>
+                            <p class="card-text">R$40,80</p>
+                            <button class="btn btn-success">Veja mais</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="acessorios" class="container py-5">
+            <h1 class="text-center mb-4">Acessórios</h1>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="./src/assets/imgs/ecobag.png" class="card-img-top" alt="ecobag">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Ecobag</h5>
+                            <p class="card-text">R$21,90</p>
+                            <button class="btn btn-success">Veja mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="./src/assets/imgs/copo.png" class="card-img-top" alt="copo">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Copo reutilizavel</h5>
+                            <p class="card-text">R$56,80</p>
+                            <button class="btn btn-success">Veja mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="./src/assets/imgs/canudo.png" class="card-img-top" alt="canudo de inox">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Canudo de inox</h5>
+                            <p class="card-text">R$12</p>
+                            <button class="btn btn-success">Veja mais</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="limpeza" class="container py-5">
+            <h1 class="text-center mb-4">Limpeza</h1>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="./src/assets/imgs/multiuso.png" class="card-img-top" alt="Multiuso">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Multiuso Concentrado</h5>
+                            <p class="card-text">R$35,14</p>
+                            <button class="btn btn-success">Veja mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="./src/assets/imgs/limpa-vidro.png" class="card-img-top" alt="limpa-vidro">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Limpa vidros</h5>
+                            <p class="card-text">R$14,24</p>
+                            <button class="btn btn-success">Veja mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="./src/assets/imgs/lava-louca.jpg" class="card-img-top" alt="lava-louca">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Lava louças em gel</h5>
+                            <p class="card-text">R$10,44</p>
+                            <button class="btn btn-success">Veja mais</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container-fluid bg-light">
+        <div class="row">
+            <div class="col-12 col-lg-6 footer-coluna">
+                <div class="footer-logo">
+                    <img src="/src/assets/imgs/logo.png" alt="Eco Trend" height="250">
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2 mt-md-5 mt-lg-5 footer-coluna text-center text-lg-left">
+                <h5 class="footer-titulo">Institucional</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Perguntas Frequentes</a></li>
+                    <li><a href="#">Entregas</a></li>
+                    <li><a href="#">Política de Trocas</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2 mt-md-5 mt-lg-5 footer-coluna text-center text-lg-left">
+                <h5 class="footer-titulo">Categorias</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#ofertas">Ofertas Especiais</a></li>
+                    <li><a href="#cozinha">Cozinha</a></li>
+                    <li><a href="#autocuidado">Auto Cuidado</a></li>
+                    <li><a href="#acessorios">Acessórios</a></li>
+                    <li><a href="#limpeza">Limpeza</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2 mt-md-5 mt-lg-5 footer-coluna text-center text-lg-left">
+                <h5 class="footer-titulo">Contato</h5>
+                <ul class="list-unstyled footer-contato text-center text-lg-left">
+                    <li><i class="fas fa-phone"></i> (11) 99999-9999</li>
+                    <li><i class="fas fa-envelope"></i> contato@ecotrend.com.br</li>
+                    <li><i class="fas fa-map-marker-alt"></i> São Paulo, SP</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center copyright">
+                <p>&copy; 2025 Eco Trend - Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
